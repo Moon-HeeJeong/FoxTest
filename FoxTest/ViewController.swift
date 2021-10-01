@@ -186,6 +186,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        self.navigationItem.title = "video play test"
         TableViewVideo.delegate = self
         TableViewVideo.dataSource = self
         
