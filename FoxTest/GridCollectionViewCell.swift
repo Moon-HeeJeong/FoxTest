@@ -9,5 +9,7 @@ import UIKit
 
 class GridCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var GridImageView: UIImageView!
+    
+    @IBOutlet weak var gridImage: UIImageView!
+      
 }
