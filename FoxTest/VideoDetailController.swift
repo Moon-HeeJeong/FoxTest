@@ -58,7 +58,7 @@ class VideoDetailController : UIViewController{
     }*/
     
     
-    /* 비디오 재생, 일시정지 버튼 클래스*/
+    /* 비디오 버튼 클래스*/
     private class PlayPauseButton: UIView {
         private var kvoRateContext = 0
         var avPlayer: AVPlayer?
